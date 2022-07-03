@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="103dp"
+        android:layout_height="86dp"
+        android:background="@drawable/trivia_bg">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="question"
+            android:textColor="@color/headerColor" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:text="category"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/headerColor"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:text="difficulty"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/headerColor"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/correctAnswer"
+        android:layout_width="wrap_content"
+        android:text="correctAnswer"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/headerColor"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
